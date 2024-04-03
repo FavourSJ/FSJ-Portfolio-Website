@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSJ Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a6d895d572.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p1>Software Engineer</p1>
+          <h1>Hi, I'm Favour welcome to <span>My Portfolio</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------About Me Section------------ -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Favour.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+                <p>
+                    As a mechanical engineer with a passion for technology and 
+                    software engineering alike, I am always eager to learn new skills 
+                    and apply them to real-world problems. I am currently pursuing my 
+                    intercalated Masters of Engineering degree at the University of Warwick, 
+                    where I have gained a solid foundation in various aspects of mechanical 
+                    engineering, such as design, analysis, simulation, optimisation and software development.
+                    <br />
+                    <br />
+                    <h3>Strong Background in: </h3>
+                    Front end web development (HTML, CSS and Javascript).
+                    <br />
+                    Programming, algorithms and data structures, skilled in Python, MatLab and Latex.
+                    <br />
+                    Strong leadership and communication skills, previously an intern at The BMW Group.
+                    <br />
+                </p>
+
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Engineer</span><br>Full Stack Development</li>
+                        <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Project Speclist Engineer</span><br>Optimisation of Manufacturing Processes</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id ="experience">
+                    <ul>
+                        <li><span>08/2022 - 08/2023</span><br>BMW Group | Mechanical Engineer Project Specalist</li>
+                        <li><span>02/2019 - 03/2019</span><br>Alstom | Systems Engineer</li>
+                        <li><span>08/2018 - 09/2018</span><br>Santander UK | Systems Administor</li>
+                        <li><span>09/2023 - current</span><br>MyTutor | Private Tutor</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id ="education">
+                    <ul>
+                        <li><span>10/2020 - 07/2025</span><br>Intercalated Masters in Mechanical Engineering</li>
+                        <li><span>09/2018 - 07/2020</span><br>A Levels <br>Mathematics (A) | Physics (A) | Economics (A)</li>
+                        <li><span>09/2012 - 07/2016</span><br>GCSEs <br>6A*'s and 2A's including Further Maths, Mathematics, Physics and English Language</li>
+                    </ul>
+                </div>
+
+
+          </div>
+        </div>
+      </div>
+   </div>
+
+   <!-- ----------- Service Section ----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Engineering</h2>
+                    <p>...Description...</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <p>...Description...</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>...Description...</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ----------- Porfolio Section ----------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/First love logo.png">
+                <div class="layer">
+                    <h3>First Love Warwick Webpage</h3>
+                    <p>Webpage to help connect Christians on Campus at Warwick</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>CAD Development</h3>
+                <p>Building/ Designing solutions on CAD</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!-- ----------- Contact Section ----------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> +44 7462922626</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/favour-st-john-4597a620a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/Favour_StJohn_CV.pdf" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Favour St John. Enjoy :) </p>
+    </div>
+</div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx9Np0aQSRIVjxszXaURXHjZiSOxLnIZYFcOiZ75MgqfwW40z1j35Epech-JxNR-e-lEg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+  </html>
